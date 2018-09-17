@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  opacity: 0.9;
+}
+nav a {
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a:hover {
+  color: #b3b3b3;
+  transition: 0.5s;
+}
+nav ul li .fa-apple {
+  font-size: 22px;
+}
+
+section {
+  padding-top: 50px;
+  display: flex;
+  background-color: #FAFAFA;
+  height: 580px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+section h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+section h5 {
+  font-size: 30px;
+}
+section a {
+  font-size: 18px;
+  font-weight: 500;
+}
+section i {
+  color: # #64A2F8;
+  font-size: 12px;
+  margin: 5px;
+}
+section img {
+  margin: 50px auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+.dark {
+  background-color: #131218;
+  color: #FAFAFA;
+}
+.dark a, .dark i {
+  color: #FAFAFA;
+}
+
+.red-cross {
+  height: 200px;
+  padding: 0;
+}
+.red-cross img {
+  margin: 0 auto;
+  width: 300px;
+  max-width: 80%;
+  display: block;
+}
+.red-cross a {
+  font-weight: 500;
+}
+
+.boxes {
+  margin-bottom: 15px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box {
+  padding: 50px;
+  text-align: center;
+  height: 600px;
+}
+.box a {
+  padding-right: 10px;
+}
+
+.box:nth-child(odd) h2 {
+  margin-top: 400px;
+}
+
+.beats,
+.mac,
+.iphone8,
+.rings,
+.airpods,
+.watch {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 4px 4px 4px #000;
+}
+
+.beats {
+  background-image: url("../img/beats.png");
+}
+
+.mac {
+  background-image: url("../img/mac.jpg");
+}
+
+.iphone8 {
+  background-image: url("../img/iphone8.jpg");
+}
+
+.rings {
+  background-image: url("../img/rings.jpg");
+}
+
+.airpods {
+  background-image: url("../img/airpodsd.jpg");
+}
+
+.watch {
+  background-image: url("../img/hqdefault.jpg");
+}
+
+footer {
+  padding: 20px;
+  background-color: #F2F2F2;
+}
+footer .container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin: 5px 0;
+  font-size: 12px;
+}
+footer ul li a {
+  color: #222;
+}
+footer ul li a:hover {
+  color: #a2a2a2;
+}
+
+.legal {
+  background-color: #F2F2F2;
+}
+.legal hr {
+  margin: 5px 0;
+}
+.legal p {
+  margin: 0;
+  display: inline-block;
+  font-size: 12px;
+  color: #888888;
+}
+.legal ul {
+  display: inline-block;
+}
+.legal ul li {
+  font-weight: 600;
+  list-style: none;
+  font-size: 12px;
+  display: inline;
+  padding: 0 10px;
+}
+.legal ul li a {
+  color: #555555;
+}
+
+@media (max-width: 786px) {
+  .boxes {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
